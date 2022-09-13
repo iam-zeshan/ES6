@@ -1,0 +1,28 @@
+/*
+I've learned the 'const' keyword, when we declare the variable with the const keyword then, we cannot assign new value to this variable by using assignment operator. But we can alter the elements if it was an Array.
+
+Task:
+An array is declared as const s = [5, 7, 2]. Change the array to [2, 5, 7] using various element assignments.
+const s = [5, 7, 2];
+function editInPlace() {
+  // Only change code below this line
+
+  // Using s = [2, 5, 7] would be invalid
+
+  // Only change code above this line
+}
+editInPlace();
+*/
+
+const s = [5, 7, 2];
+function editInPlace() {
+  // Only change code below this line
+  s[0] = 2;
+  s[1] = 5;
+  s[2] = 7;
+
+  //  Using s = [2, 5, 7] would be invalid
+
+  // Only change code above this line
+}
+editInPlace();
